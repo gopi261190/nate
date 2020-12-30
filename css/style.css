@@ -1,0 +1,520 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inner {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+/* container start */
+
+.container {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../image/hero-area.jpg");
+  background-attachment: fixed;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* nav-start */
+
+.nav {
+  position: relative;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.2rem;
+  color: #79a3b1;
+  padding-left: 10px;
+}
+
+ul li {
+  list-style: none;
+  padding: 0px 20px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.toggle {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.bar {
+  font-size: 30px;
+  color: #fff;
+}
+
+.green {
+  color: #fff;
+  border-radius: 50px;
+  padding: 3px 20px;
+  background-color: #79a3b1;
+}
+
+/* nav end */
+
+/* banner-start */
+
+.banner {
+  color: #fff;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.banner h1 {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.banner p {
+  padding: 20px 0px 30px 0px;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: #79a3b1;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+}
+
+/* banner end */
+
+/* container end */
+
+/* service-start */
+
+.services {
+  padding: 5% 1%;
+}
+
+.service-content {
+  text-align: center;
+}
+
+.service-content h1 {
+  font-size: 3rem;
+}
+
+.green-line {
+  width: 100px;
+  height: 1px;
+  border: none;
+  background-color: #79a3b1;
+}
+
+.service-content p {
+  padding: 20px 0px;
+}
+
+.service-boxes {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.service-box {
+  width: 30%;
+}
+
+.s-icon {
+  font-size: 1.5rem;
+  padding: 20px;
+  border: 1px solid rgb(230, 229, 229);
+  border-radius: 100%;
+  color: #79a3b1;
+  margin-bottom: 30px;
+}
+
+.service-box h2 {
+  padding-bottom: 10px;
+}
+
+.service-content p {
+  line-height: 30px;
+}
+
+/* service end */
+
+/* features start */
+
+.full-features {
+  width: 100%;
+  background-image: url("../image/bg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 5%;
+}
+
+.features-boxes {
+  padding-bottom: 0;
+}
+
+.features-boxes .left-box {
+  width: 65%;
+}
+
+.features-boxes .right-box {
+  width: 35%;
+}
+
+.left-side {
+  width: 49%;
+}
+
+.fea-box {
+  width: 100%;
+  margin-top: 75px;
+}
+
+.fea-icon {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-icon {
+  font-size: 30px;
+  color: #a7c5eb;
+  padding: 15px;
+  border-radius: 100%;
+  border: 1px solid #79a3b1;
+}
+
+.fea-text {
+  width: 75%;
+}
+
+.fea-text h3 {
+  color: #79a3b1;
+  padding-bottom: 10px;
+}
+
+.fea-text p {
+  line-height: 30px;
+}
+
+/* features end */
+
+/* portfolio start */
+
+.portfolio {
+  padding: 5% 0%;
+}
+
+.port-img {
+  width: 30%;
+  margin: 25px 0px;
+}
+
+.p-img {
+  width: 100%;
+}
+
+/* portfolio end */
+
+/* intro start */
+
+.intro {
+  width: 100%;
+  background-color: #79a3b1;
+  text-align: center;
+  padding: 5% 0%;
+  color: #fff;
+}
+
+.intro h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.intro p {
+  padding: 25px 0px;
+}
+
+.in-icon {
+  font-size: 2rem;
+  border: 2px solid #fff;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+/* intro end */
+
+/* pricing start */
+
+.pricing {
+  padding: 5% 1%;
+  text-align: center;
+}
+
+.price-box {
+  width: 30%;
+  border: 1px solid rgb(236, 234, 234);
+}
+
+.price-box h2 {
+  font-size: 2rem;
+  padding: 30px 0px;
+  background-color: rgb(236, 234, 234);
+}
+
+.price-box h1 {
+  font-size: 3rem;
+  color: #11698e;
+  padding: 30px 0px;
+  font-weight: 100;
+}
+
+.p-line {
+  height: 1px;
+  border: none;
+  background-color: rgb(236, 234, 234);
+}
+
+.price-btn {
+  margin: 30px 0px 35px 0px;
+}
+
+.price-box p {
+  padding: 5px 0px;
+}
+
+/* pricing end */
+
+/* progress start */
+
+.progress {
+  width: 100%;
+  background-image: url("../image/counter.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 1%;
+}
+
+.progress-box {
+  width: 25%;
+  text-align: center;
+  color: #fff;
+}
+
+.pro-icon {
+  font-size: 5rem;
+}
+
+.progress-box h1 {
+  padding: 10px 0px;
+}
+
+.progress h2 {
+  font-weight: 100;
+}
+
+/* progress end */
+
+/* team start */
+
+.team {
+  padding: 5% 1%;
+}
+
+.team-box {
+  width: 23%;
+  text-align: center;
+  background-color: rgb(236, 234, 234);
+}
+
+.team-box h2 {
+  font-size: 1.4rem;
+  padding-top: 20px;
+}
+
+.team-member {
+  width: 100%;
+}
+
+.social {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin: 20px 5px 20px 0px;
+  font-size: 1rem;
+  color: #79a3b1;
+}
+
+.social1 {
+  padding: 10px 13px;
+}
+
+.social2 {
+  padding: 10px 8px;
+}
+
+/* team end */
+
+/* contact start */
+
+.contact {
+  width: 100%;
+  background-color: #343a40;
+  padding: 5% 0%;
+  color: #fff;
+}
+
+.left-contact {
+  width: 49%;
+}
+
+.left-contact h1 {
+  font-size: 2.5rem;
+  padding-bottom: 40px;
+}
+
+.left-contact p {
+  padding: 5px 0px;
+}
+
+.contact-green {
+  color: #79a3b1;
+}
+
+.name {
+  width: 100%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 17px 0px 17px 20px;
+  margin: 10px 0px;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+
+.comment {
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+/* contact end */
+
+/*  footer start */
+
+footer {
+  background-color: #292f35;
+  text-align: center;
+  color: #fff;
+  padding: 3% 0%;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+/* footer end */
+
+/* media query start */
+
+@media only screen and (max-width:991px) {
+  .toggle {
+    display: block;
+  }
+  .nav ul {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    padding-left: 0;
+  }
+  .features-boxes .left-box {
+    width: 100%;
+    padding: 5% 0%;
+  }
+  .features-boxes .right-box {
+    display: none;
+  }
+  .team {
+    padding: 5% 10%;
+  }
+  .team-box {
+    width: 45%;
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width:840px) {
+  .service-box {
+    width: 45%;
+  }
+  .full {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .price-box {
+    width: 47%;
+  }
+  .full-price {
+    width: 47%;
+    margin: 50px auto;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .port-img {
+    width: 100%;
+    margin: 13px 0px;
+  }
+  .services, .features-boxes .left-box, .pricing, .team {
+    padding: 5%;
+  }
+  .service-box, .price-box, .progress-box, .team-box, .left-contact {
+    width: 100%;
+    margin: 3% 5%;
+  }
+  .full {
+    padding-top: 0;
+  }
+  .left-side {
+    width: 100%;
+  }
+  .benner h1, .service-content h1, .intro h1, .left-contact h1 {
+    font-size: 2.3rem;
+  }
+}
+
+/* media query end */
